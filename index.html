@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>انجمن مهندسی کامپیوتر</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+    <link rel="stylesheet" href="slider.css">
+    <style>
+        * {
+            font-family: "Vazir";
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <section class=" dark:bg-gray-900 mt-8">
+                <div style="background-image: url(images/computerAssosiation.jpeg);background-size: cover;min-width:100%;"
+                    class="w-full grid max-w-screen-xl px-4 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+
+                    <nav
+                        class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+                        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                                <img src="https://isic.ir/wp-content/uploads/2019/09/573.png" class="h-8"
+                                    alt="لوگوی انجمن کامپیوتر مرکز آموزش عالی فنی مهندسی کامپیوتر">
+                                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">انجمن
+                                    مهندسی کامپیوتر</span>
+                            </a>
+                            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                                <!-- <button type="button"
+                                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
+                                    started</button> -->
+                                <button data-collapse-toggle="navbar-sticky" type="button"
+                                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                                    aria-controls="navbar-sticky" aria-expanded="false">
+                                    <span class="sr-only">Open main menu</span>
+                                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                        fill="none" viewBox="0 0 17 14">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+                                id="navbar-sticky">
+                                <ul
+                                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                                    <li>
+                                        <a href="index.html"
+                                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                                            aria-current="page">خانه</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#member"
+                                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">اعضا</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#aboutus"
+                                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">درباره
+                                            ما</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#news"
+                                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">اخبار</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <div class="mr-auto place-self-center lg:col-span-7">
+                        <h1
+                            class="text-white max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                            انجمن مهندسی کامپیوتر<h1>
+                                <p class="text-white font-bold text-2xl">
+                                    منسجم , پشیرو ,امیدوار
+                                </p>
+                                <!-- <a href="#"
+                                    class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                                    <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    Get started
+                                </a>
+                                <a href="#"
+                                    class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                                    Speak to Sales
+                                </a> -->
+
+                            </h1>
+                        </h1>
+                    </div>
+                    <!-- <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png"
+                            alt="mockup">
+                    </div> -->
+                </div>
+            </section>
+        </div>
+    </header>
+    <main>
+        <!--members-->
+        <section id="member" style="display: flex;"
+            class="bg-white w-full flex-col justify-center items-center gap-3 lg:px-8 lg:overflow-hidden">
+            <h1 class="text-primary-600 border-b-4 border-primary-600 font-bold text-4xl mt-2 pb-2">اعضای انجمن کامپیوتر
+            </h1>
+            <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-4">
+                <!--نباتی زاده -->
+                <div
+                    class="w-full max-w-sm border-2 border-Orange-400 border  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg profile" src="images/black-bmw.jpg"
+                            alt="Bonnie image" />
+                        <h5 class="name mb-1 text-xl font-medium text-gray-900 dark:text-white">محمد مهدی نباتی زاده
+                        </h5>
+                        <span class="text-sm text-gray-500 dark:text-gray-400 field">Graphic Designer |
+                            President</span>
+                        <div class="flex mt-4 md:mt-6">
+                            <a href="#"
+                                class="resumelink inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                رزومه</a>
+                            <!-- <a href="#"
+              class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Message</a> -->
+                        </div>
+                    </div>
+                </div>
+                <!--نباتی زاده-->
+                <!--یزدان پناه-->
+                <div
+                    class="w-full max-w-sm border-2 border-blue-600 border  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="profile w-24 h-24 mb-3 rounded-full shadow-lg" src="images/laptop-jpg.jpg"
+                            alt="Bonnie image" />
+                        <h5 class="name mb-1 text-xl font-medium text-gray-900 dark:text-white">امیرمحمد یزدان پناه
+                        </h5>
+                        <span class="field text-sm text-gray-500 dark:text-gray-400">Back-end Developer |
+                            Member</span>
+                        <div class="flex mt-4 md:mt-6">
+                            <a href="#"
+                                class="resumelink  items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                رزومه</a>
+                            <!-- <a href="#"
+            class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Message</a> -->
+                        </div>
+                    </div>
+                </div>
+                <!--یزدان پناه-->
+
+                <!--شعبانی-->
+                <div
+                    class="w-full max-w-sm border-2 border-blue-600 border  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="profile w-24 h-24 mb-3 rounded-full shadow-lg" src="images/laptop-jpg.jpg"
+                            alt="Bonnie image" />
+                        <h5 class=" name mb-1 text-xl font-medium text-gray-900 dark:text-white">علیرضا شعبانی گملی
+                        </h5>
+                        <span class="field text-sm text-gray-500 dark:text-gray-400">Front-end Developer |
+                            Member</span>
+                        <div class="flex mt-4 md:mt-6">
+                            <a href="#"
+                                class=" resumelink inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                رزومه</a>
+                            <!-- <a href="#"
+            class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Message</a> -->
+                        </div>
+                    </div>
+                </div>
+                <!--شعبانی-->
+                <!-- درزی-->
+                <div
+                    class="w-full max-w-sm border-2 border-blue-600 border  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="profile w-24 h-24 mb-3 rounded-full shadow-lg" src="images/laptop-jpg.jpg"
+                            alt="Bonnie image" />
+                        <h5 class="name mb-1 text-xl font-medium text-gray-900 dark:text-white">احسان درزی</h5>
+                        <span class="field text-sm text-gray-500 dark:text-gray-400">PLC Developer | Member</span>
+                        <div class="flex mt-4 md:mt-6">
+                            <a href="#"
+                                class="resumelink  items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                رزومه</a>
+                            <!-- <a href="#"
+            class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Message</a> -->
+                        </div>
+                    </div>
+                </div>
+                <!--درزی-->
+                <!--الماسی -->
+                <div
+                    class="w-full max-w-sm border-2 border-gray-400 border  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="profile w-24 h-24 mb-3 rounded-full shadow-lg" src="images/laptop-jpg.jpg"
+                            alt="Bonnie image" />
+                        <h5 class="name mb-1 text-xl font-medium text-gray-900 dark:text-white">محمد مهدی الماسی
+                            خانلو
+                        </h5>
+                        <span class="field text-gray-500 dark:text-gray-400">FullStack Developer | Honorary
+                            member</span>
+                        <div class="flex mt-4 md:mt-6">
+                            <a href="#"
+                                class="resumelink items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                رزومه</a>
+                            <!-- <a href="#"
+        class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Message</a> -->
+                        </div>
+                    </div>
+                </div>
+                <!--الماسی -->
+                <!--مرادی -->
+                <div
+                    class="w-full max-w-sm border-2 border-gray-400 border  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="profile w-24 h-24 mb-3 rounded-full shadow-lg" src="images/laptop-jpg.jpg"
+                            alt="Bonnie image" />
+                        <h5 class="name mb-1 text-xl font-medium text-gray-900 dark:text-white">محمد جواد مرادی</h5>
+                        <span class="field text-sm text-gray-500 dark:text-gray-400">DeepLearning | Honorary
+                            member</span>
+                        <div class="flex mt-4 md:mt-6">
+                            <a href="#"
+                                class="resumelink items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                رزومه</a>
+                            <!-- <a href="#"
+                    class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Message</a> -->
+                        </div>
+                    </div>
+                </div>
+                <!--مرادی -->
+            </div>
+
+        </section>
+        <!--members end-->
+        <!--about us-->
+        <!-- ====== About Section Start -->
+        <section id="aboutus" class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
+            <div class="container mx-auto">
+                <div class="flex flex-wrap items-center justify-between -mx-4">
+                    <div class="w-full px-4 lg:w-6/12">
+                        <div class="flex items-center -mx-3 sm:-mx-4">
+                            <div class="w-full px-3 sm:px-4 xl:w-1/2">
+                                <div class="py-3 sm:py-4">
+                                    <img src="images/teamworking.png" alt="" id="firstImage"
+                                        class="w-full rounded-2xl" />
+                                </div>
+                                <div class="py-3 sm:py-4">
+                                    <img id="secondImage"
+                                        src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-2.jpg"
+                                        alt="" class="w-full rounded-2xl" />
+                                </div>
+                            </div>
+                            <div class="w-full px-3 sm:px-4 xl:w-1/2">
+                                <div class="relative z-10 my-4">
+                                    <img id="thirdImage"
+                                        src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-2.jpg"
+                                        alt="" class="w-full rounded-2xl" />
+                                    <span class="absolute -right-7 -bottom-7 z-[-1]">
+                                        <svg width="134" height="106" viewBox="0 0 134 106" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="1.66667" cy="104" r="1.66667"
+                                                transform="rotate(-90 1.66667 104)" fill="#3056D3" />
+                                            <circle cx="16.3333" cy="104" r="1.66667"
+                                                transform="rotate(-90 16.3333 104)" fill="#3056D3" />
+                                            <circle cx="31" cy="104" r="1.66667" transform="rotate(-90 31 104)"
+                                                fill="#3056D3" />
+                                            <circle cx="45.6667" cy="104" r="1.66667"
+                                                transform="rotate(-90 45.6667 104)" fill="#3056D3" />
+                                            <circle cx="60.3334" cy="104" r="1.66667"
+                                                transform="rotate(-90 60.3334 104)" fill="#3056D3" />
+                                            <circle cx="88.6667" cy="104" r="1.66667"
+                                                transform="rotate(-90 88.6667 104)" fill="#3056D3" />
+                                            <circle cx="117.667" cy="104" r="1.66667"
+                                                transform="rotate(-90 117.667 104)" fill="#3056D3" />
+                                            <circle cx="74.6667" cy="104" r="1.66667"
+                                                transform="rotate(-90 74.6667 104)" fill="#3056D3" />
+                                            <circle cx="103" cy="104" r="1.66667" transform="rotate(-90 103 104)"
+                                                fill="#3056D3" />
+                                            <circle cx="132" cy="104" r="1.66667" transform="rotate(-90 132 104)"
+                                                fill="#3056D3" />
+                                            <circle cx="1.66667" cy="89.3333" r="1.66667"
+                                                transform="rotate(-90 1.66667 89.3333)" fill="#3056D3" />
+                                            <circle cx="16.3333" cy="89.3333" r="1.66667"
+                                                transform="rotate(-90 16.3333 89.3333)" fill="#3056D3" />
+                                            <circle cx="31" cy="89.3333" r="1.66667" transform="rotate(-90 31 89.3333)"
+                                                fill="#3056D3" />
+                                            <circle cx="45.6667" cy="89.3333" r="1.66667"
+                                                transform="rotate(-90 45.6667 89.3333)" fill="#3056D3" />
+                                            <circle cx="60.3333" cy="89.3338" r="1.66667"
+                                                transform="rotate(-90 60.3333 89.3338)" fill="#3056D3" />
+                                            <circle cx="88.6667" cy="89.3338" r="1.66667"
+                                                transform="rotate(-90 88.6667 89.3338)" fill="#3056D3" />
+                                            <circle cx="117.667" cy="89.3338" r="1.66667"
+                                                transform="rotate(-90 117.667 89.3338)" fill="#3056D3" />
+                                            <circle cx="74.6667" cy="89.3338" r="1.66667"
+                                                transform="rotate(-90 74.6667 89.3338)" fill="#3056D3" />
+                                            <circle cx="103" cy="89.3338" r="1.66667"
+                                                transform="rotate(-90 103 89.3338)" fill="#3056D3" />
+                                            <circle cx="132" cy="89.3338" r="1.66667"
+                                                transform="rotate(-90 132 89.3338)" fill="#3056D3" />
+                                            <circle cx="1.66667" cy="74.6673" r="1.66667"
+                                                transform="rotate(-90 1.66667 74.6673)" fill="#3056D3" />
+                                            <circle cx="1.66667" cy="31.0003" r="1.66667"
+                                                transform="rotate(-90 1.66667 31.0003)" fill="#3056D3" />
+                                            <circle cx="16.3333" cy="74.6668" r="1.66667"
+                                                transform="rotate(-90 16.3333 74.6668)" fill="#3056D3" />
+                                            <circle cx="16.3333" cy="31.0003" r="1.66667"
+                                                transform="rotate(-90 16.3333 31.0003)" fill="#3056D3" />
+                                            <circle cx="31" cy="74.6668" r="1.66667" transform="rotate(-90 31 74.6668)"
+                                                fill="#3056D3" />
+                                            <circle cx="31" cy="31.0003" r="1.66667" transform="rotate(-90 31 31.0003)"
+                                                fill="#3056D3" />
+                                            <circle cx="45.6667" cy="74.6668" r="1.66667"
+                                                transform="rotate(-90 45.6667 74.6668)" fill="#3056D3" />
+                                            <circle cx="45.6667" cy="31.0003" r="1.66667"
+                                                transform="rotate(-90 45.6667 31.0003)" fill="#3056D3" />
+                                            <circle cx="60.3333" cy="74.6668" r="1.66667"
+                                                transform="rotate(-90 60.3333 74.6668)" fill="#3056D3" />
+                                            <circle cx="60.3333" cy="30.9998" r="1.66667"
+                                                transform="rotate(-90 60.3333 30.9998)" fill="#3056D3" />
+                                            <circle cx="88.6667" cy="74.6668" r="1.66667"
+                                                transform="rotate(-90 88.6667 74.6668)" fill="#3056D3" />
+                                            <circle cx="88.6667" cy="30.9998" r="1.66667"
+                                                transform="rotate(-90 88.6667 30.9998)" fill="#3056D3" />
+                                            <circle cx="117.667" cy="74.6668" r="1.66667"
+                                                transform="rotate(-90 117.667 74.6668)" fill="#3056D3" />
+                                            <circle cx="117.667" cy="30.9998" r="1.66667"
+                                                transform="rotate(-90 117.667 30.9998)" fill="#3056D3" />
+                                            <circle cx="74.6667" cy="74.6668" r="1.66667"
+                                                transform="rotate(-90 74.6667 74.6668)" fill="#3056D3" />
+                                            <circle cx="74.6667" cy="30.9998" r="1.66667"
+                                                transform="rotate(-90 74.6667 30.9998)" fill="#3056D3" />
+                                            <circle cx="103" cy="74.6668" r="1.66667"
+                                                transform="rotate(-90 103 74.6668)" fill="#3056D3" />
+                                            <circle cx="103" cy="30.9998" r="1.66667"
+                                                transform="rotate(-90 103 30.9998)" fill="#3056D3" />
+                                            <circle cx="132" cy="74.6668" r="1.66667"
+                                                transform="rotate(-90 132 74.6668)" fill="#3056D3" />
+                                            <circle cx="132" cy="30.9998" r="1.66667"
+                                                transform="rotate(-90 132 30.9998)" fill="#3056D3" />
+                                            <circle cx="1.66667" cy="60.0003" r="1.66667"
+                                                transform="rotate(-90 1.66667 60.0003)" fill="#3056D3" />
+                                            <circle cx="1.66667" cy="16.3333" r="1.66667"
+                                                transform="rotate(-90 1.66667 16.3333)" fill="#3056D3" />
+                                            <circle cx="16.3333" cy="60.0003" r="1.66667"
+                                                transform="rotate(-90 16.3333 60.0003)" fill="#3056D3" />
+                                            <circle cx="16.3333" cy="16.3333" r="1.66667"
+                                                transform="rotate(-90 16.3333 16.3333)" fill="#3056D3" />
+                                            <circle cx="31" cy="60.0003" r="1.66667" transform="rotate(-90 31 60.0003)"
+                                                fill="#3056D3" />
+                                            <circle cx="31" cy="16.3333" r="1.66667" transform="rotate(-90 31 16.3333)"
+                                                fill="#3056D3" />
+                                            <circle cx="45.6667" cy="60.0003" r="1.66667"
+                                                transform="rotate(-90 45.6667 60.0003)" fill="#3056D3" />
+                                            <circle cx="45.6667" cy="16.3333" r="1.66667"
+                                                transform="rotate(-90 45.6667 16.3333)" fill="#3056D3" />
+                                            <circle cx="60.3333" cy="60.0003" r="1.66667"
+                                                transform="rotate(-90 60.3333 60.0003)" fill="#3056D3" />
+                                            <circle cx="60.3333" cy="16.3333" r="1.66667"
+                                                transform="rotate(-90 60.3333 16.3333)" fill="#3056D3" />
+                                            <circle cx="88.6667" cy="60.0003" r="1.66667"
+                                                transform="rotate(-90 88.6667 60.0003)" fill="#3056D3" />
+                                            <circle cx="88.6667" cy="16.3333" r="1.66667"
+                                                transform="rotate(-90 88.6667 16.3333)" fill="#3056D3" />
+                                            <circle cx="117.667" cy="60.0003" r="1.66667"
+                                                transform="rotate(-90 117.667 60.0003)" fill="#3056D3" />
+                                            <circle cx="117.667" cy="16.3333" r="1.66667"
+                                                transform="rotate(-90 117.667 16.3333)" fill="#3056D3" />
+                                            <circle cx="74.6667" cy="60.0003" r="1.66667"
+                                                transform="rotate(-90 74.6667 60.0003)" fill="#3056D3" />
+                                            <circle cx="74.6667" cy="16.3333" r="1.66667"
+                                                transform="rotate(-90 74.6667 16.3333)" fill="#3056D3" />
+                                            <circle cx="103" cy="60.0003" r="1.66667"
+                                                transform="rotate(-90 103 60.0003)" fill="#3056D3" />
+                                            <circle cx="103" cy="16.3333" r="1.66667"
+                                                transform="rotate(-90 103 16.3333)" fill="#3056D3" />
+                                            <circle cx="132" cy="60.0003" r="1.66667"
+                                                transform="rotate(-90 132 60.0003)" fill="#3056D3" />
+                                            <circle cx="132" cy="16.3333" r="1.66667"
+                                                transform="rotate(-90 132 16.3333)" fill="#3056D3" />
+                                            <circle cx="1.66667" cy="45.3333" r="1.66667"
+                                                transform="rotate(-90 1.66667 45.3333)" fill="#3056D3" />
+                                            <circle cx="1.66667" cy="1.66683" r="1.66667"
+                                                transform="rotate(-90 1.66667 1.66683)" fill="#3056D3" />
+                                            <circle cx="16.3333" cy="45.3333" r="1.66667"
+                                                transform="rotate(-90 16.3333 45.3333)" fill="#3056D3" />
+                                            <circle cx="16.3333" cy="1.66683" r="1.66667"
+                                                transform="rotate(-90 16.3333 1.66683)" fill="#3056D3" />
+                                            <circle cx="31" cy="45.3333" r="1.66667" transform="rotate(-90 31 45.3333)"
+                                                fill="#3056D3" />
+                                            <circle cx="31" cy="1.66683" r="1.66667" transform="rotate(-90 31 1.66683)"
+                                                fill="#3056D3" />
+                                            <circle cx="45.6667" cy="45.3333" r="1.66667"
+                                                transform="rotate(-90 45.6667 45.3333)" fill="#3056D3" />
+                                            <circle cx="45.6667" cy="1.66683" r="1.66667"
+                                                transform="rotate(-90 45.6667 1.66683)" fill="#3056D3" />
+                                            <circle cx="60.3333" cy="45.3338" r="1.66667"
+                                                transform="rotate(-90 60.3333 45.3338)" fill="#3056D3" />
+                                            <circle cx="60.3333" cy="1.66683" r="1.66667"
+                                                transform="rotate(-90 60.3333 1.66683)" fill="#3056D3" />
+                                            <circle cx="88.6667" cy="45.3338" r="1.66667"
+                                                transform="rotate(-90 88.6667 45.3338)" fill="#3056D3" />
+                                            <circle cx="88.6667" cy="1.66683" r="1.66667"
+                                                transform="rotate(-90 88.6667 1.66683)" fill="#3056D3" />
+                                            <circle cx="117.667" cy="45.3338" r="1.66667"
+                                                transform="rotate(-90 117.667 45.3338)" fill="#3056D3" />
+                                            <circle cx="117.667" cy="1.66683" r="1.66667"
+                                                transform="rotate(-90 117.667 1.66683)" fill="#3056D3" />
+                                            <circle cx="74.6667" cy="45.3338" r="1.66667"
+                                                transform="rotate(-90 74.6667 45.3338)" fill="#3056D3" />
+                                            <circle cx="74.6667" cy="1.66683" r="1.66667"
+                                                transform="rotate(-90 74.6667 1.66683)" fill="#3056D3" />
+                                            <circle cx="103" cy="45.3338" r="1.66667"
+                                                transform="rotate(-90 103 45.3338)" fill="#3056D3" />
+                                            <circle cx="103" cy="1.66683" r="1.66667"
+                                                transform="rotate(-90 103 1.66683)" fill="#3056D3" />
+                                            <circle cx="132" cy="45.3338" r="1.66667"
+                                                transform="rotate(-90 132 45.3338)" fill="#3056D3" />
+                                            <circle cx="132" cy="1.66683" r="1.66667"
+                                                transform="rotate(-90 132 1.66683)" fill="#3056D3" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
+                        <div class="mt-10 lg:mt-0">
+                            <span class="block mb-4 text-lg font-semibold text-primary aboutus_smalltxt">
+                                درباره انجمن کامپیوتر
+                            </span>
+                            <h2
+                                class="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px] aboutus_title">
+                                ایجاد تغیییر مبتنی بر همکاری و کار تیمی
+                            </h2>
+                            <p class="mb-5 text-base text-body-color dark:text-dark-6 aboutus_description">
+                                انجمن کامپیوتر نه تنها یک تیم از بچه های پرانگیزه بلکه یه جمع دوستانه هست که امید دارند
+                                بتوانند یک تغییر در زمینه علمی و فرهنگی دانشگاه انجام بدهند
+                            </p>
+                            <p class="mb-8 text-base text-body-color dark:text-dark-6">
+                                اگر به تکنولوژی علاقه مندی و دوست داری توی جمع دوستانه به ما کمک کنی پس به ما پیام بده
+                            </p>
+                            <a href="javascript:void(0)"
+                                class="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90">
+                                Get Started
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ====== About Section End -->
+        <!--about us end-->
+        <!--news section-->
+        <section id="news" class="w-full">
+            <div class="slide-container swiper flex-col justify-center items-center">
+                <h1 class="text-blue-600 border-b-4 border-blue-600 font-bold text-4xl mb-3 pb-2">اخبار
+                </h1>
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div
+                                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                <a href="#">
+                                    <img class="rounded-t-lg" src="images/acmCompetition.jfif" alt="" />
+                                </a>
+                                <div class="p-5">
+                                    <a href="#">
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            مسابقات ACM توسط دانشگاه شریف برگزار شد</h5>
+                                    </a>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                        مسابقات ACM یکی از مسابقات بین المللی در حوزه الگوریتم و برنامه نویسی است که در
+                                        ایران به نمایندگی دانشگاه شریف برگزار شد
+                                    </p>
+                                    <a href="#"
+                                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        بیشتر
+                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div
+                                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                <a href="#">
+                                    <img class="rounded-t-lg" src="images/laptop-jpg.jpg" alt="" />
+                                </a>
+                                <div class="p-5">
+                                    <a href="#">
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            دوره ی رباتیک نرم افزار برای افزاد مستعد</h5>
+                                    </a>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                        انجمن کامپیوتر با کمک اساتید و دانشگاه دوره ی آمادگی برای شرکت در مساقبات فراهم
+                                        کرده
+                                        اند از افراد مستعد دعوت به همکاری می شود
+                                    </p>
+                                    <a href="news.html"
+                                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        بیشتر
+                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+        </section>
+        <!--end news section-->
+    </main>
+
+
+    <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <img src="https://isic.ir/wp-content/uploads/2019/09/573.png" class="h-8" alt="Flowbite Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-wrap dark:text-white">انجمن کامپیوتر
+                        مرکز آموزش عالی فنی مهندسی بویین زهرا</span>
+                </a>
+                <ul
+                    class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="#aboutus" class="hover:underline me-4 md:me-6">درباره ما</a>
+                    </li>
+                    <li>
+                        <a href="#member" class="hover:underline me-4 md:me-6">اعضا</a>
+                    </li>
+                    <li>
+                        <a href="#news" class="hover:underline me-4 md:me-6">اخبار</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 1403 <a
+                    href="https://flowbite.com/" class="hover:underline">انجمن کامپیوتر</a>. تمامی حقوق مادی و
+                معنوی متعلق است .</span>
+        </div>
+    </footer>
+
+
+    <script src="config.js"></script>
+    <script src="data.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
+    <script>
+        var profiles = document.querySelectorAll(".profile");
+        var names = document.querySelectorAll(".name");
+        var fields = document.querySelectorAll(".field");
+        var resumelinks = document.querySelectorAll(".resumelink");
+        var aboutus_smalltxt = document.querySelector(".aboutus_smalltxt");
+        var aboutus_title = document.querySelector(".aboutus_title");
+        var aboutus_description = document.querySelector(".aboutus_description");
+        var firstSrc = document.querySelector("#firstImage");
+        var secondSrc = document.querySelector("#secondImage");
+        var thirdSrc = document.querySelector("#thirdImage");
+        profiles.forEach((p, index) => {
+            p.setAttribute("src", data.members[index].imagesrc);
+        });
+        names.forEach((p, index) => {
+            p.innerHtml = data.members[index].name;
+        });
+        fields.forEach((p, index) => {
+            p.innerHtml = data.members[index].field;
+        });
+        resumelinks.forEach((p, index) => {
+            p.setAttribute("href", data.members[index].resumelink);
+        });
+        aboutus_smalltxt.innerHTML = data.aboutus.smalltxt;
+        aboutus_title = data.aboutus.title;
+        aboutus_description = data.aboutus.description;
+        firstSrc.setAttribute("src", data.aboutus.firstSrc);
+        secondSrc.setAttribute("src", data.aboutus.secondSrc);
+        thirdSrc.setAttribute("src", data.aboutus.thirdSrc);
+    </script>
+
+</body>
+
+</html>
