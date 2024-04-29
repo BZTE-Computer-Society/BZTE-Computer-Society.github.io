@@ -21,8 +21,10 @@
 </head>
 
 <body>
-    <div class="spinner">
+    <div class="spinner-container">
+        <div class="spinner">
 
+        </div>
     </div>
     <header>
         <div class="banner">
@@ -587,7 +589,7 @@
     <script src="slider.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            var spinner = document.querySelector(".spinner");
+            var spinner = document.querySelector(".spinner-container");
             spinner.classList.add("hide");
         }, false);
         var profiles = document.querySelectorAll(".profile");
