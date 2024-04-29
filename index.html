@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
     <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="loader.css">
     <style>
         * {
             font-family: "Vazir";
@@ -20,6 +21,9 @@
 </head>
 
 <body>
+    <div class="spinner">
+
+    </div>
     <header>
         <div class="banner">
             <section class=" dark:bg-gray-900 mt-8">
@@ -582,6 +586,10 @@
     <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
     <script src="slider.js"></script>
     <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var spinner = document.querySelector(".spinner");
+            spinner.classList.add("hide");
+        }, false);
         var profiles = document.querySelectorAll(".profile");
         var names = document.querySelectorAll(".name");
         var fields = document.querySelectorAll(".field");
